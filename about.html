@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us | Hivajoy Web</title>
+  <link rel="icon" href="/favicon.ico" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background-color: #f8f9fa;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #121212;
+      color: #fff;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      letter-spacing: 1px;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      color: #dcdcdc;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 3rem auto;
+      padding: 2rem;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    section h2 {
+      color: #ff0077;
+      margin-bottom: 1rem;
+      font-size: 1.8rem;
+    }
+
+    section p {
+      margin-bottom: 1rem;
+      font-size: 1rem;
+    }
+
+    .team {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    .team-member {
+      flex: 1 1 250px;
+      text-align: center;
+      background: #f1f1f1;
+      border-radius: 10px;
+      padding: 1rem;
+      transition: 0.3s ease;
+    }
+
+    .team-member:hover {
+      transform: translateY(-5px);
+      background: #ffeef5;
+    }
+
+    .team-member img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 0.5rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background-color: #121212;
+      color: #fff;
+      margin-top: 3rem;
+      font-size: 0.9rem;
+    }
+
+    a {
+      color: #ff0077;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>About Hivajoy Web</h1>
+    <p>Bringing joy, creativity, and entertainment to every screen.</p>
+  </header>
+
+  <section>
+    <h2>Our Story</h2>
+    <p>
+      Welcome to <strong>Hivajoy Web</strong> — your destination for digital entertainment experiences that inspire and delight.
+      We started with a simple idea: to make people smile through engaging and creative online entertainment. 
+      From interactive events to digital showcases, we bring joy to your fingertips.
+    </p>
+
+    <h2>Our Mission</h2>
+    <p>
+      Our mission is to revolutionize the way people experience entertainment on the web. 
+      We believe in blending technology and creativity to create a space where everyone can discover something exciting, inspiring, and fun.
+    </p>
+
+    <h2>Meet the Team</h2>
+    <div class="team">
+      <div class="team-member">
+        <img src="https://via.placeholder.com/100" alt="Team Member" />
+        <h3>Jane Doe</h3>
+        <p>Founder & Creative Director</p>
+      </div>
+      <div class="team-member">
+        <img src="https://via.placeholder.com/100" alt="Team Member" />
+        <h3>John Smith</h3>
+        <p>Technical Lead</p>
+      </div>
+      <div class="team-member">
+        <img src="https://via.placeholder.com/100" alt="Team Member" />
+        <h3>Alex Lee</h3>
+        <p>Design & Media Manager</p>
+      </div>
+    </div>
+
+    <h2>Join the Fun</h2>
+    <p>
+      Stay tuned for updates, events, and new experiences from Hivajoy Web.
+      Want to collaborate or learn more? <a href="mailto:info@hivajoy.com">Contact us here</a>.
+    </p>
+  </section>
+
+  <footer>
+    &copy; <span id="year"></span> Hivajoy Web. All rights reserved.
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
